@@ -18,7 +18,7 @@ public class ArrayStuff {
 
 
         // Change the 3rd element of "ages" to be 18
-        ages[3] = 18;
+        ages[2] = 18;
 
 
         // Change the first element of "ages" to be an integer entered by the user
@@ -48,20 +48,31 @@ public class ArrayStuff {
         // NOTE: Pluto is NOT a planet.
 
 
-        // TODO: Print the first letter of the 7th planet from the sun
+        // Print the first letter of the 7th planet from the sun
        String planet7 = planets[6];
-       System.out.println(planet7.startsWith);
+       System.out.println(planet7.charAt(0));
 
 
-        // TODO: Change the name of our planet to be a line of text that the user inputs
+        // Change the name of our planet to be a line of text that the user inputs
         System.err.println("What do you want to rename Earth to be?");
+        planets [2] = input.next();
 
 
-        // TODO: Replace the first planet with the planet at index 2, but with all
+        // Replace the first planet with the planet at index 2, but with all
         // upper case letters.
+        planets [0] = planets[2];
+        planets [0] = planets [0].toUpperCase();
 
 
         // TODO: Print all of the elements of "planets" in reverse order.
+        System.out.println(planets[7]);
+        System.out.println(planets[6]);
+        System.out.println(planets[5]);
+        System.out.println(planets[4]);
+        System.out.println(planets[3]);
+        System.out.println(planets[2]);
+        System.out.println(planets[1]);
+        System.out.println(planets[0]);
 
     }
 }
