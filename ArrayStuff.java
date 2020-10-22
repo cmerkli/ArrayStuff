@@ -1,7 +1,7 @@
 /*
- * Programmer:
- * Date:
- * Purpose:
+ * Programmer:Cyntia Merkli
+ * Date: October 22, 2020
+ * Purpose:Learn basics of arrays
  */
 
 import java.util.Scanner;
@@ -43,9 +43,9 @@ public class ArrayStuff {
         // PART B
 
         //Create AND initialize an array called "planets" that holds the
-        String [] planets = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
         // names of the planets in order from closest to the sun to farthest.
         // NOTE: Pluto is NOT a planet.
+        String [] planets = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
 
 
         // Print the first letter of the 7th planet from the sun
@@ -64,7 +64,7 @@ public class ArrayStuff {
         planets [0] = planets [0].toUpperCase();
 
 
-        // TODO: Print all of the elements of "planets" in reverse order.
+        //Print all of the elements of "planets" in reverse order.
         System.out.println(planets[7]);
         System.out.println(planets[6]);
         System.out.println(planets[5]);
